@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Outfit", "Space Grotesk", sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-studio-orange: #FF6B00;
+  --color-studio-black: #0B0B0B;
+  --color-studio-dark: #050505;
+  --color-studio-gray: #161616;
+  --color-studio-light-gray: #222222;
+}
+
+@layer utilities {
+  /* Selection styling */
+  ::selection {
+    background-color: var(--color-studio-orange);
+    color: white;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-studio-black);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-studio-orange);
+  }
+
+  /* Glow Filters & Layers */
+  .orange-glow {
+    box-shadow: 0 0 50px -10px rgba(255, 107, 0, 0.45);
+  }
+  
+  .orange-text-glow {
+    text-shadow: 0 0 20px rgba(255, 107, 0, 0.6);
+  }
+
+  /* Custom outline/stroke styled headers for editorial look */
+  .text-stroke-orange {
+    -webkit-text-stroke: 1px rgba(255, 107, 0, 0.85);
+    color: transparent;
+  }
+
+  .text-stroke-white {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    color: transparent;
+  }
+
+  .glow-border {
+    position: relative;
+  }
+  
+  .glow-border::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(to bottom, rgba(255, 107, 0, 0.4), rgba(255, 107, 0, 0.05));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .glow-border:hover::after {
+    background: linear-gradient(to bottom, rgba(255, 107, 0, 0.8), rgba(255, 107, 0, 0.2));
+  }
+
+  /* Glassmorphism */
+  .glass-card {
+    background: rgba(15, 15, 15, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+  }
+  
+  .glass-card-orange {
+    background: rgba(255, 107, 0, 0.03);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 107, 0, 0.1);
+  }
+
+  /* Custom pointer */
+  @media (min-width: 1024px) {
+    body, a, button {
+      cursor: none !important;
+    }
+  }
+}
+
+/* Background Grid Overlay style */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle 800px at var(--x, 50%) var(--y, 50%), rgba(255, 107, 0, 0.08), transparent 80%);
+}
+
+/* Custom noise overlay filter */
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3联%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opaciy='0.02'/%3E%3C/svg%3E");
+  opacity: 0.015;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* Custom smooth scroll */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-studio-black);
+}
+
+/* Base Headings font overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #E2E8F0;
+  overflow-x: hidden;
+}

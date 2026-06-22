@@ -1,0 +1,6 @@
+{
+  "name": "Studio39",
+  "description": "Premium, modern creative agency based in Bangladesh specializing in Video Editing, Digital Marketing, Graphic Design, and Interior Design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
