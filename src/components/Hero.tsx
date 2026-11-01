@@ -52,25 +52,6 @@ export default function Hero() {
 
       {/* Floating abstract decorative elements (luxury digital concept layout) */}
       <div className="absolute inset-0 pointer-events-none z-[1] hidden md:block">
-        {/* Dhaka location code tag */}
-        <motion.div 
-          className="absolute top-[25%] left-[8%] glass-card px-4 py-2 rounded-xl text-[10px] font-mono tracking-widest text-[#777] flex items-center gap-2"
-          animate={{ y: [0, -12, 0] }}
-          transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          <span className="w-1.5 h-1.5 bg-studio-orange rounded-full animate-ping" />
-          ESTD // DHAKA 23.8103° N
-        </motion.div>
-
-        {/* Framing metrics */}
-        <motion.div 
-          className="absolute bottom-[20%] left-[6%] text-[10px] font-mono text-[#555] flex flex-col gap-1 border-l border-studio-orange/30 pl-4 py-1"
-          animate={{ x: [0, 5, 0] }}
-          transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          <div>FRAME CAP // 24.00 fps</div>
-          <div>LUT GRID // ST39-NEON_LUT</div>
-        </motion.div>
 
         {/* Concept graphic layout block */}
         <motion.div 
