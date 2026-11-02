@@ -297,7 +297,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Right Column - Address details & Interactive Vector SVG Dhaka Map */}
+          {/* Right Column - Address details & Interactive Vector SVG Khulna Map */}
           <div className="lg:col-span-5 flex flex-col gap-10">
             {/* Core Contact Cards */}
             <div className="flex flex-col gap-6">
@@ -308,8 +308,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-xs font-mono text-[#555] tracking-widest uppercase mb-1">Corporate HQ address</h4>
-                  <p className="text-sm font-semibold text-white uppercase block">Floor 7, Glass Tower Block Alpha</p>
-                  <p className="text-xs font-light text-neutral-400">Road 12, Gulshan-1, Dhaka 1212, Bangladesh</p>
+                  <p className="text-sm font-semibold text-white uppercase block">Level 5, City Center Tower</p>
+                  <p className="text-xs font-light text-neutral-400">KDA Avenue, Shib Bari, Khulna 9100, Bangladesh</p>
                 </div>
               </div>
 
@@ -336,15 +336,15 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Custom Google Maps Integration - Fully Interactive Vector custom Dhaka map blueprint blueprint layout  */}
+            {/* Custom Google Maps Integration - Fully Interactive Vector custom Khulna map blueprint layout  */}
             <div 
               className="relative aspect-video lg:aspect-square rounded-3xl glass-card overflow-hidden border border-white/5 flex flex-col justify-between p-6 cursor-crosshair group"
-              id="vector-dhaka-map"
+              id="vector-khulna-map"
             >
-              {/* Map background grid visual design of Gulshan Lakes & Streets layout blueprints */}
+              {/* Map background grid visual design layout blueprints */}
               <div className="absolute inset-0 z-0 bg-[#070707] transition-all group-hover:bg-[#040404] duration-75">
                 <svg viewBox="0 0 400 400" className="w-full h-full opacity-35 group-hover:opacity-65 transition-opacity" xmlns="http://www.w3.org/2000/svg">
-                  {/* Lakes elements */}
+                  {/* Lakes/Rivers elements */}
                   <path d="M 50,50 Q 80,120 120,160 T 220,180 T 320,380" fill="none" stroke="#222" strokeWidth="8" />
                   <path d="M 280,30 Q 250,110 320,160 T 380,240" fill="none" stroke="#222" strokeWidth="4" />
                   
@@ -357,7 +357,7 @@ export default function Contact() {
                   <line x1="200" y1="0" x2="200" y2="400" stroke="#1d1d1d" strokeWidth="1.5" />
                   <line x1="300" y1="0" x2="300" y2="400" stroke="#161616" strokeWidth="1" />
 
-                  {/* Gulshan Avenue central road (Bright highlight vector) */}
+                  {/* KDA Avenue central road (Bright highlight vector) */}
                   <path d="M 200,0 Q 180,180 230,220 T 260,400" fill="none" stroke="#333" strokeWidth="1.5" className="group-hover:stroke-studio-orange/35 transition-colors" />
                   <path d="M 0,220 Q 220,220 220,220" fill="none" stroke="#333" strokeWidth="1" />
                   
@@ -369,7 +369,7 @@ export default function Contact() {
 
               {/* Top map telemetry info */}
               <div className="relative z-10 flex justify-between items-start text-[8px] font-mono text-[#444] group-hover:text-neutral-400 transition-colors uppercase">
-                <div>LOC_RADAR // DHAKA GULSHAN OFFICE</div>
+                <div>LOC_RADAR // KHULNA HQ OFFICE</div>
                 <div>SECURE LINK</div>
               </div>
 
@@ -385,15 +385,15 @@ export default function Contact() {
                   animate={{ y: [0, -4, 0] }}
                   transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
                 >
-                  CHITRO HQ // ROAD 12
+                  CHITRO HQ // KDA AVENUE
                 </motion.div>
               </div>
 
               {/* Bottom map coordinates info */}
               <div className="relative z-10 flex justify-between items-end">
                 <div className="text-[10px] font-mono text-neutral-400">
-                  <div className="font-extrabold text-white text-xs">GULSHAN-1 COORDS</div>
-                  <div className="text-[#666]">23.7749° N, 90.4150° E</div>
+                  <div className="font-extrabold text-white text-xs">KHULNA HQ COORDS</div>
+                  <div className="text-[#666]">22.8456° N, 89.5403° E</div>
                 </div>
 
                 <div className="flex items-center gap-1.5 px-3 py-1 bg-studio-orange/10 border border-studio-orange/20 rounded text-[9px] font-mono text-studio-orange uppercase font-bold">

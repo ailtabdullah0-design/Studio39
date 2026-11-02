@@ -242,7 +242,7 @@ export default function Portfolio() {
 
                 {/* Foot layout metadata branding */}
                 <div className="text-[8px] font-mono text-[#444] text-center uppercase tracking-widest pt-8 border-t border-white/5 mt-8">
-                  CHITRO // CAMPAIGN CODE CHITRO-{selectedProject.id.toUpperCase()} // DHAKA HQ
+                  CHITRO // CAMPAIGN CODE CHITRO-{selectedProject.id.toUpperCase()} // KHULNA HQ
                 </div>
               </motion.div>
             </div>

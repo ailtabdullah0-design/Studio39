@@ -19,7 +19,7 @@ export default function Blog() {
           For decades, the South Asian commercial space was dominated by high-saturation billboards, bloated layouts, and frantic, competing slogans. Every square Taka of a creative canvas was stuffed with graphics. It created high environmental fatigue. Today, local trailblazers are discovering that silence is actually the loudest thing in the room.
 
           ### Case Point: CHITRO HQ philosophy
-          When designing our own creative laboratory in Dhaka, we chose raw, tactile industrial materials. This physical brutalism translates directly into our digital layout blueprints:
+          When designing our own creative laboratory in Khulna, we chose raw, tactile industrial materials. This physical brutalism translates directly into our digital layout blueprints:
           1. **Tight typographic scales**: Choosing classic premium grotesque fonts (Outfit, Space Grotesk) and aligning them with strict vertical grids.
           2. **Vibrant color-blocking**: Isolating deep, infinite matte blacks with precise, hyper-pigmented bursts of electric orange.
           3. **Intelligent raw assets**: Dropping heavy borders in favor of fluid glassmorphism sheets, negative spacing, and subtle micro-shadowing.
@@ -73,7 +73,7 @@ export default function Blog() {
           Visual aesthetic is only half the battle. Coupling creative excellence with hyper-contextual scheduling algorithms is how CHITRO transforms branding into high-performance revenue engines.
         `;
       default:
-        return 'Detailed Case Study text compiling... Please consult our Dhaka post house for specific campaign audit spreadsheets.';
+        return 'Detailed Case Study text compiling... Please consult our Khulna post house for specific campaign audit spreadsheets.';
     }
   };
 

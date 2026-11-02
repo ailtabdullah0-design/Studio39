@@ -191,7 +191,7 @@ export default function Services() {
 
                 {/* Fine technical signature layout */}
                 <div className="text-[9px] font-mono text-[#444] text-center uppercase tracking-widest pt-4 border-t border-white/5">
-                  CHITRO // GULSHAN OFFICE BD // ENTRUSTED CRITERIA SECURE
+                  CHITRO // KHULNA OFFICE BD // ENTRUSTED CRITERIA SECURE
                 </div>
               </motion.div>
             </div>

@@ -70,7 +70,7 @@ export default function Footer() {
           {/* Services quick links column */}
           <div className="md:col-span-4 flex flex-col gap-3">
             <h4 className="text-xs font-mono text-studio-orange tracking-widest uppercase mb-2">Pillar Services</h4>
-            <p className="text-xs text-neutral-500 font-mono leading-relaxed mb-1 uppercase">DHAKA HQ SECURE COMPLIANCE</p>
+            <p className="text-xs text-neutral-500 font-mono leading-relaxed mb-1 uppercase">KHULNA HQ SECURE COMPLIANCE</p>
             <ul className="grid grid-cols-1 gap-2 text-xs text-neutral-400">
               <li>&bull; Cinematic Post Action (Video)</li>
               <li>&bull; Programmatic Campaigns & Performance (Marketing)</li>
@@ -83,7 +83,7 @@ export default function Footer() {
         {/* Bottom Social Media and Copyright actions row */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
           <div className="text-[10px] font-mono text-[#555] uppercase text-center sm:text-left leading-normal">
-            &copy; {currentYear} CHITRO Ltd. All rights reserved. Deployed from Dhaka, Bangladesh.<br />
+            &copy; {currentYear} CHITRO Ltd. All rights reserved. Deployed from Khulna, Bangladesh.<br />
             Visual components secure SLA. Auth system verification.
           </div>
 
@@ -93,7 +93,7 @@ export default function Footer() {
               <a href="#instagram" className="hover:text-studio-orange transition-colors" title="Instagram Channel"><Instagram size={16} /></a>
               <a href="#linkedin" className="hover:text-studio-orange transition-colors" title="LinkedIn Channel"><Linkedin size={16} /></a>
               <a href="#facebook" className="hover:text-studio-orange transition-colors" title="Facebook Page"><Facebook size={16} /></a>
-              <a href="#dhaka" className="hover:text-studio-orange transition-colors" title="Bangladesh Registry"><Globe size={16} /></a>
+              <a href="#khulna" className="hover:text-studio-orange transition-colors" title="Bangladesh Registry"><Globe size={16} /></a>
             </div>
 
             {/* Back to top bullet button */}

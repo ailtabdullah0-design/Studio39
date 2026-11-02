@@ -70,7 +70,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              DHAKA, BANGLADESH
+              KHULNA, BANGLADESH
             </motion.span>
           </div>
 

@@ -48,7 +48,7 @@ export default function About() {
               We operate at the volatile intersection of cinematic narrative & high-conversion visual design.
             </h3>
             <p className="leading-relaxed font-light text-neutral-400">
-              Founded in Dhaka, CHITRO emerged from a shared frustration with cookie-cutter corporate designs and template commercial videos. We saw an opportunity to establish an elite visual authority that marries cutting-edge European brutalist philosophies with the vibrant heritage of Bangladesh.
+              Founded in Khulna, CHITRO emerged from a shared frustration with cookie-cutter corporate designs and template commercial videos. We saw an opportunity to establish an elite visual authority that marries cutting-edge European brutalist philosophies with the vibrant heritage of Bangladesh.
             </p>
             <p className="leading-relaxed font-light text-neutral-400">
               Whether editing high-retention video stories, composing robust performance ad frameworks, structuring graphic systems, or architectural spatial designs—we sculpt with custom aesthetics that refuse to blend into the background.
@@ -66,7 +66,7 @@ export default function About() {
               </div>
               <div className="border-r border-white/10" />
               <div>
-                <h4 className="text-4xl md:text-5xl font-black text-studio-orange"> Dhaka</h4>
+                <h4 className="text-4xl md:text-5xl font-black text-studio-orange"> Khulna</h4>
                 <p className="text-[10px] font-mono tracking-wider text-neutral-400 uppercase mt-1">HQ Central Location</p>
               </div>
             </div>

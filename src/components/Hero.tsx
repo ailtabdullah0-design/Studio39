@@ -133,7 +133,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          Based in Dhaka, Bangladesh, CHITRO executes high-caliber commercials, viral performance campaigns, brand designs, and high-end brutalist spaces.
+          Based in Khulna, Bangladesh, CHITRO executes high-caliber commercials, viral performance campaigns, brand designs, and high-end brutalist spaces.
         </motion.p>
 
         {/* CTA Button Block */}

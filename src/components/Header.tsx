@@ -182,11 +182,11 @@ export default function Header({ activeSection }: HeaderProps) {
               <div className="flex gap-4 justify-center text-neutral-500">
                 <a href="#instagram" className="hover:text-studio-orange transition-colors"><Instagram size={18} /></a>
                 <a href="#linkedin" className="hover:text-studio-orange transition-colors"><Linkedin size={18} /></a>
-                <a href="#dhaka" className="hover:text-studio-orange transition-colors"><Globe size={18} /></a>
+                <a href="#khulna" className="hover:text-studio-orange transition-colors"><Globe size={18} /></a>
               </div>
 
               <div className="text-center text-[10px] font-mono text-[#444]">
-                DHAKA, BANGLADESH // GULSHAN OFFICE
+                KHULNA, BANGLADESH // HQ OFFICE
               </div>
             </div>
           </motion.div>

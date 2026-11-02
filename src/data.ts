@@ -92,12 +92,12 @@ export const projects: Project[] = [
   },
   {
     id: 'proj-6',
-    title: 'CHITRO Dhaka Workspace HQ',
+    title: 'CHITRO Khulna Workspace HQ',
     category: 'interior',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800',
     client: 'CHITRO In-house',
     tags: ['Brutalist Architecture', 'Industrial Steel', 'Orange Neon Lines'],
-    description: 'Our own headquarters in Dhaka, sculpted to act as a physical manifesto of our brand identity: deep black matte walls, industrial metal plates, and vibrant orange LED shafts.',
+    description: 'Our own headquarters in Khulna, sculpted to act as a physical manifesto of our brand identity: deep black matte walls, industrial metal plates, and vibrant orange LED shafts.',
     year: '2026'
   },
   {
