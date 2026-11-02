@@ -33,7 +33,7 @@ export const services: Service[] = [
     title: 'Premium Interior Design',
     iconName: 'Layout',
     description: 'Bespoke architectural spaces. We orchestrate luxury minimalist layouts, corporate HQs, and retail environments.',
-    details: 'Studio39 structures physical space with a high-end cinematic attitude. We integrate custom metalwork, concrete brutality, and orange ambient lighting.',
+    details: 'CHITRO structures physical space with a high-end cinematic attitude. We integrate custom metalwork, concrete brutality, and orange ambient lighting.',
     features: ['Corporate HQ Space Orchestration', 'Luxurious Minimalist Residential', 'Interactive Lighting Design', 'Custom Craft Furniture Design'],
     stats: '120k+ Sq. Ft. Sculpted'
   }
@@ -87,15 +87,15 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800',
     client: 'Pathao Delivery Ltd',
     tags: ['Performance Campaign', 'Visual Content Scripting', 'SEO Engagements'],
-    description: 'Studio39 created 12 high-octane rapid-cut video ads and mapped targeted creative funnels, scaling app orders during Ramadan of 2025 to record milestones.',
+    description: 'CHITRO created 12 high-octane rapid-cut video ads and mapped targeted creative funnels, scaling app orders during Ramadan of 2025 to record milestones.',
     year: '2025'
   },
   {
     id: 'proj-6',
-    title: 'Studio39 Dhaka Workspace HQ',
+    title: 'CHITRO Dhaka Workspace HQ',
     category: 'interior',
     image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800',
-    client: 'Studio39 In-house',
+    client: 'CHITRO In-house',
     tags: ['Brutalist Architecture', 'Industrial Steel', 'Orange Neon Lines'],
     description: 'Our own headquarters in Dhaka, sculpted to act as a physical manifesto of our brand identity: deep black matte walls, industrial metal plates, and vibrant orange LED shafts.',
     year: '2026'
@@ -205,7 +205,7 @@ export const testimonials: Testimonial[] = [
     name: 'Naseem Anwer',
     role: 'Chief Marketing Officer',
     company: 'Bengal Beverages Ltd.',
-    quote: 'Studio39 transformed our local beverage line into a premium cult brand overnight. Their graphic standards, video editing precision, and sheer strategic drive surpassed any agency we have ever worked with.',
+    quote: 'CHITRO transformed our local beverage line into a premium cult brand overnight. Their graphic standards, video editing precision, and sheer strategic drive surpassed any agency we have ever worked with.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150'
   },
@@ -214,7 +214,7 @@ export const testimonials: Testimonial[] = [
     name: 'Sabeera Rahman',
     role: 'Brand Lead',
     company: 'Apex Design Collective',
-    quote: 'The Banani duplex lounge designed by Studio39 represents the absolute peak of modern luxury interior architectures in Dhaka. Raw concrete offset with warm orange LED lighting - it is a sheer masterpiece!',
+    quote: 'The Banani duplex lounge designed by CHITRO represents the absolute peak of modern luxury interior architectures in Dhaka. Raw concrete offset with warm orange LED lighting - it is a sheer masterpiece!',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=150'
   },
@@ -223,7 +223,7 @@ export const testimonials: Testimonial[] = [
     name: 'Imran Chowdhury',
     role: 'Development Chief',
     company: 'Hive Co-working Dhaka',
-    quote: 'From digital campaigns that convert, to video edits that raise adrenaline, Studio39 is the only team we entrust our real estate growth strategies to. Highly responsive, premium design craft experts.',
+    quote: 'From digital campaigns that convert, to video edits that raise adrenaline, CHITRO is the only team we entrust our real estate growth strategies to. Highly responsive, premium design craft experts.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150'
   },
@@ -232,7 +232,7 @@ export const testimonials: Testimonial[] = [
     name: 'Mark Henderson',
     role: 'Founder',
     company: 'Elysium Agency London',
-    quote: 'Even working remotely across continents, Studio39 delivered world-class graphic identities and video components. Their taste level is exceptionally high. Deep blacks and vitalizing orange are their playground.',
+    quote: 'Even working remotely across continents, CHITRO delivered world-class graphic identities and video components. Their taste level is exceptionally high. Deep blacks and vitalizing orange are their playground.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150'
   }

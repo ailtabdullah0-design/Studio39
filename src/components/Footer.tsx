@@ -39,7 +39,7 @@ export default function Footer() {
               className="inline-flex items-center gap-2"
             >
               <h3 className="text-xl md:text-2xl font-black uppercase text-white tracking-widest leading-none">
-                STUDIO<span className="text-studio-orange font-light">39</span>
+                CHIT<span className="text-studio-orange font-light">RO</span>
               </h3>
               <div className="w-1.5 h-1.5 rounded-full bg-studio-orange shadow-[0_0_8px_#FF6B00]" />
             </a>
@@ -83,7 +83,7 @@ export default function Footer() {
         {/* Bottom Social Media and Copyright actions row */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
           <div className="text-[10px] font-mono text-[#555] uppercase text-center sm:text-left leading-normal">
-            &copy; {currentYear} Studio39 Ltd. All rights reserved. Deployed from Dhaka, Bangladesh.<br />
+            &copy; {currentYear} CHITRO Ltd. All rights reserved. Deployed from Dhaka, Bangladesh.<br />
             Visual components secure SLA. Auth system verification.
           </div>
 

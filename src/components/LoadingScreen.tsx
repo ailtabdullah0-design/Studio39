@@ -10,7 +10,7 @@ const taglines = [
   'SCULPTING SPATIAL GEOMETRIES',
   'ALIGNING THE BRAND CHANNELS',
   'ENVELOPE MOVEMENT ENGAGED',
-  'STUDIO39 DIGITAL ONLINE'
+  'CHITRO DIGITAL ONLINE'
 ];
 
 export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
@@ -63,7 +63,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.1 }}
             >
-              STUDIO39 // CREATIVE INITIATIVES
+              CHITRO // CREATIVE INITIATIVES
             </motion.span>
             <motion.span
               initial={{ opacity: 0 }}
@@ -83,7 +83,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
               >
-                STUDIO<span className="text-studio-orange font-light">39</span>
+                CHIT<span className="text-studio-orange font-light">RO</span>
               </motion.h1>
             </div>
             

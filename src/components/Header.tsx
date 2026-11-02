@@ -67,7 +67,7 @@ export default function Header({ activeSection }: HeaderProps) {
           id="logo-anchor"
         >
           <span className="text-xl md:text-2xl font-extrabold tracking-tighter text-white uppercase flex items-center">
-            STUDIO<span className="text-studio-orange font-light">39</span>
+            CHIT<span className="text-studio-orange font-light">RO</span>
           </span>
           <motion.div 
             className="w-1.5 h-1.5 rounded-full bg-studio-orange shadow-[0_0_8px_#FF6B00]"
@@ -138,7 +138,7 @@ export default function Header({ activeSection }: HeaderProps) {
             {/* Header Area inside drawer */}
             <div className="flex justify-between items-center">
               <span className="text-xl font-extrabold text-white tracking-widest uppercase">
-                STUDIO<span className="text-studio-orange font-light">39</span>
+                CHIT<span className="text-studio-orange font-light">RO</span>
               </span>
               <button 
                 onClick={() => setMobileMenuOpen(false)}

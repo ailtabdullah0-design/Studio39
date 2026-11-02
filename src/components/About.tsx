@@ -48,7 +48,7 @@ export default function About() {
               We operate at the volatile intersection of cinematic narrative & high-conversion visual design.
             </h3>
             <p className="leading-relaxed font-light text-neutral-400">
-              Founded in Dhaka, Studio39 emerged from a shared frustration with cookie-cutter corporate designs and template commercial videos. We saw an opportunity to establish an elite visual authority that marries cutting-edge European brutalist philosophies with the vibrant heritage of Bangladesh.
+              Founded in Dhaka, CHITRO emerged from a shared frustration with cookie-cutter corporate designs and template commercial videos. We saw an opportunity to establish an elite visual authority that marries cutting-edge European brutalist philosophies with the vibrant heritage of Bangladesh.
             </p>
             <p className="leading-relaxed font-light text-neutral-400">
               Whether editing high-retention video stories, composing robust performance ad frameworks, structuring graphic systems, or architectural spatial designs—we sculpt with custom aesthetics that refuse to blend into the background.
@@ -103,7 +103,7 @@ export default function About() {
               <div>
                 <h4 className="text-lg font-bold text-white uppercase tracking-wider mb-2">Our Vision</h4>
                 <p className="text-sm font-light text-neutral-400 leading-relaxed">
-                  To elevate Bangladeshi post-production and design standards to the global forefront—establishing Studio39 as an international paradigm of raw, luxury visual craft.
+                  To elevate Bangladeshi post-production and design standards to the global forefront—establishing CHITRO as an international paradigm of raw, luxury visual craft.
                 </p>
               </div>
             </motion.div>

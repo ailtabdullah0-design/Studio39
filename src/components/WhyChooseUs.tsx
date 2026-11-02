@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
               {/* Verified Badge indicator at bottom */}
               <div className="flex items-center gap-2 border-t border-white/5 pt-5 mt-6 text-[#444] group-hover:text-studio-orange/40 transition-colors duration-300">
                 <Check size={12} className="text-studio-orange/50" />
-                <span className="text-[9px] font-mono uppercase tracking-widest">ST39_SECURE_VERIFIED</span>
+                <span className="text-[9px] font-mono uppercase tracking-widest">CHITRO_SECURE_VERIFIED</span>
               </div>
             </motion.div>
           ))}

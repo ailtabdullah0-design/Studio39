@@ -109,7 +109,7 @@ export default function Contact() {
               <div className="flex justify-between items-center mb-8 border-b border-white/5 pb-4">
                 <span className="text-xs font-mono tracking-widest text-neutral-400 uppercase flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 bg-studio-orange rounded-full animate-pulse" />
-                  ST39-COMMISSION_LINK_SECURE
+                  CHITRO-COMMISSION_LINK_SECURE
                 </span>
 
                 {pastInquiries.length > 0 && (
@@ -319,7 +319,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-xs font-mono text-[#555] tracking-widest uppercase mb-1">Secure Digital Mail</h4>
-                  <p className="text-sm font-semibold text-white hover:text-studio-orange transition-colors"><a href="mailto:pitch@studio39.media">pitch@studio39.media</a></p>
+                  <p className="text-sm font-semibold text-white hover:text-studio-orange transition-colors"><a href="mailto:pitch@chitro.media">pitch@chitro.media</a></p>
                   <p className="text-xs font-light text-neutral-400">Direct query lines with strategic directors</p>
                 </div>
               </div>
@@ -385,7 +385,7 @@ export default function Contact() {
                   animate={{ y: [0, -4, 0] }}
                   transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
                 >
-                  Studio39 HQ // ROAD 12
+                  CHITRO HQ // ROAD 12
                 </motion.div>
               </div>
 

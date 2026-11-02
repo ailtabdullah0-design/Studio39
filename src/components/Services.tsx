@@ -145,7 +145,7 @@ export default function Services() {
                       {renderIcon(activeService.iconName, "w-8 h-8")}
                     </div>
                     <div>
-                      <span className="text-[10px] font-mono tracking-widest text-[#666] uppercase">STUDIO39 CAPABILITY</span>
+                      <span className="text-[10px] font-mono tracking-widest text-[#666] uppercase">CHITRO CAPABILITY</span>
                       <h3 className="text-2xl md:text-3xl font-black uppercase text-white tracking-wider">{activeService.title}</h3>
                     </div>
                   </div>
@@ -191,7 +191,7 @@ export default function Services() {
 
                 {/* Fine technical signature layout */}
                 <div className="text-[9px] font-mono text-[#444] text-center uppercase tracking-widest pt-4 border-t border-white/5">
-                  STUDIO39 // GULSHAN OFFICE BD // ENTRUSTED CRITERIA SECURE
+                  CHITRO // GULSHAN OFFICE BD // ENTRUSTED CRITERIA SECURE
                 </div>
               </motion.div>
             </div>
